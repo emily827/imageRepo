@@ -1,0 +1,14 @@
+{
+    "database": {
+        "user": "nodejs",
+        "host": "localhost",
+        "database": "imagerepo",
+        "password": "password",
+        "port": 5432
+    },
+    "port": 8443,
+    "tlsCert": "./config/ssl.cer",
+    "tlsCertKey": "./config/ssl.key",
+    "authTokenValidity": 1440,
+    "logLevel": "dev"
+}
